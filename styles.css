@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+/*  your css code here. If applicable */
+html{
+	background-color: rgb(135,206,235);
+}
+.content :first-child{
+	background-color: black;
+	color: white;
+}
+.content :last-child{
+	color: red;
+}
+.list ul :first-child, .list ul :last-child{
+	background-color: white;
+}
+.list ul :nth-child(2n){
+	background-color: #5C636F;
+}
+.list ul :nth-child(3){
+	background-color: pink;
+}
